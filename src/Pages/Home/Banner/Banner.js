@@ -7,8 +7,8 @@ import profileImage from "../../../Images/profile-image.png";
 
 const Banner = () => {
   return (
-    <div className="grid grid-cols-1 md:grid-cols-2 gap-5 mx-auto p-8 bg-slate-900 text-white">
-      <div>
+    <div className="grid grid-cols-1 md:grid-cols-3  mx-auto p-8 bg-slate-900 text-white">
+      <div className="col-span-2">
         <div className="flex justify-center">
           <Link className="m-2 text-white text-2xl">
             <FaFacebook></FaFacebook>
@@ -46,7 +46,7 @@ const Banner = () => {
                 />
               </span>
             </h1>
-            <span className="text-gray-400">
+            <span className="text-gray-300">
               Create and design websites with frontend and backend operations
             </span>
           </div>
@@ -70,9 +70,9 @@ const Banner = () => {
         </div>
       </div>
 
-      <div className="md:w-1/2 mx-auto">
+      <div className="w-full mx-auto flex items-center">
         <img
-          className="w-3/5  bg-blue-400  rounded-full mx-auto"
+          className="w-48  bg-blue-400  rounded-full mx-auto"
           src={profileImage}
           alt=""
         />
