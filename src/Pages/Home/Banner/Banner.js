@@ -7,7 +7,7 @@ import profileImage from "../../../Images/profile-image.png";
 
 const Banner = () => {
   return (
-    <div className="grid grid-cols-1 md:grid-cols-3  mx-auto p-8 bg-slate-900 text-white">
+    <div className="grid grid-cols-1 md:grid-cols-3  mx-auto p-8 bg-slate-900 text-white my-8 rounded-xl">
       <div className="col-span-2">
         <div className="flex justify-center">
           <Link className="m-2 text-white text-2xl">
@@ -22,11 +22,11 @@ const Banner = () => {
         </div>
         <div className="text-center ">
           <span className="text-xl font-bold">Hello, I am</span>{" "}
-          <span className="text-orange-600 text-xl font-bold">Rasel Miah</span>
+          <span className="text-primary text-xl font-bold">Rasel Miah</span>
           <div>
             <h1 className="text-4xl font-bold">
               I am a{" "}
-              <span className="text-orange-600">
+              <span className="text-primary">
                 {/* Style will be inherited from the parent element */}
                 <Typewriter
                   words={[

@@ -5,7 +5,11 @@ import Projects from "../Projects/Projects";
 
 const Home = () => {
   return (
-    <div>
+    <div
+      style={{
+        padding: "0 5%",
+      }}
+    >
       <Banner></Banner>
       <Projects></Projects>
       <Contact></Contact>

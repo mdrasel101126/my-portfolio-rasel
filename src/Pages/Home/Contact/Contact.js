@@ -36,7 +36,7 @@ const Contact = () => {
       <p className="text-gray-500 text-center mb-8">
         Please contact me without any hegitation
       </p>
-      <div className="grid grid-cols-1 md:grid-cols-2 mx-auto  bg-slate-900 text-white py-8 px-4 ">
+      <div className="grid grid-cols-1 md:grid-cols-2 mx-auto  bg-slate-900 text-white py-8 px-4 rounded-xl ">
         <div className="flex flex-col justify-center">
           <div className="">
             <div className="flex flex-row items-center">
@@ -48,13 +48,13 @@ const Contact = () => {
               <p>+8801798686728</p>
             </div>
             <div className="flex flex-row items-center">
-              <FaInbox className="text-xl mr-2"></FaInbox>
+              <FaInbox className="text-xl w-[16px] mr-2"></FaInbox>
               <p>rasel.miah101126@gmail.com</p>
             </div>
           </div>
         </div>
         <div className="">
-          <h1 className="text-primary text-2xl font-bold my-4">Send Message</h1>
+          <h1 className="text-primary text-2xl font-bold mb-4">Send Message</h1>
           <form
             ref={form}
             onSubmit={sendEmail}
