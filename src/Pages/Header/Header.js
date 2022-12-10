@@ -7,6 +7,12 @@ const Header = () => {
       <li>
         <Link to="/">Home</Link>
       </li>
+      <li>
+        <Link>About Me</Link>
+      </li>
+      <li>
+        <Link>Resume</Link>
+      </li>
     </>
   );
   return (
