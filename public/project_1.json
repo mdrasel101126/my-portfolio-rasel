@@ -1,0 +1,37 @@
+[
+    {   "id":1,
+        "name":"Mobile Market",
+        "imgaes":["https://i.ibb.co/YDmLQ2R/screencapture-mobile-market-1b94f-web-app-2022-12-11-15-48-14.png","https://i.ibb.co/PrLQzxD/screencapture-mobile-market-1b94f-web-app-dashboard-myproducts-2022-12-11-16-03-15.png","https://i.ibb.co/WVh20Rb/screencapture-mobile-market-1b94f-web-app-category-637f60fb061abaa7237b1707-2022-12-11-16-04-40.png","https://i.ibb.co/vcM9x8d/screencapture-mobile-market-1b94f-web-app-dashboard-payment-6395ac10e3eac91a84bd5483-2022-12-11-16-0.png"],
+       
+        "client-side":"https://github.com/mdrasel101126/mobile-market-client",
+        "server-side":"https://github.com/mdrasel101126/mobile-market-server",
+        "live-link":"https://mobile-market-1b94f.web.app/",
+         "description":"It has login and register system,with Firebase authentication.Home page contains the category list of mobile brands and advertised items.On clicking any category sell all ,redirect to a page containing all mobiles of this category only if the user is registered otherwise the user will redirect to login page.Only login user will see Dashboar Link.The Dashboard Routes will change based on normal user, seller and admin. Only normal user can book, buy and report a product.Online Card payment is available.",
+         "technologies":"ReactJs,Tailwind CSS,Daisy UI,React Icons,React Slick,React Router Dom,Firebase,Mongodb,NodeJS,ExpressJS"
+
+    },
+    {
+        "id":2,
+        "name":"Hello Foodies",
+        "imgaes":["https://i.ibb.co/XtSy1NZ/screencapture-hello-foodies-web-app-2022-12-11-15-53-47.png","https://i.ibb.co/5MnvNb1/screencapture-hello-foodies-web-app-services-2022-12-11-16-39-19.png","https://i.ibb.co/1qS49xt/screencapture-hello-foodies-web-app-services-636bd3a13e23bf9b5b269833-2022-12-11-16-37-30.png","https://i.ibb.co/WpXwhDv/screencapture-hello-foodies-web-app-addservice-2022-12-11-16-40-34.png"],
+       
+        "client-side":"https://github.com/mdrasel101126/hello-foodies-client",
+        "server-side":"https://github.com/mdrasel101126/hello-foodies-server",
+        "live-link":"https://hello-foodies.web.app/",
+         "description":"This is a single page application.It has a login register authentication.Home page contain a navbar and three service.By clicking see all button user can see the all services.One single service has a details page.Details page contain the details of that service and comments of the users.Any one can comment by login into this website.There is two private routes named AddService and MyReviews.If you login into this website ,you will access this page.My Reviews page user will see his/her own reviews only.Add Service page is used to insert new service",
+         "technologies":"ReactJs,Tailwind CSS,Daisy UI,React Icons,React Slick,React Router Dom,Firebase,Mongodb,NodeJS,JWT,ExpressJS"
+
+    },
+    {
+        "id":3,
+        "name":"Tech Hunt",
+        "imgaes":["https://i.ibb.co/GTZkN8k/screencapture-tech-hunt-32867-web-app-2022-12-11-15-55-51.png","https://i.ibb.co/6sM1PtB/screencapture-tech-hunt-32867-web-app-course-3-2022-12-11-16-51-32.png","https://i.ibb.co/hynkfrF/screencapture-tech-hunt-32867-web-app-login-2022-12-11-16-53-09.png","https://i.ibb.co/fC8W5Hx/screencapture-tech-hunt-32867-web-app-course-5-2022-12-11-16-57-17.png"],
+       
+        "client-side":"https://github.com/mdrasel101126/tech-hunt-client",
+        "server-side":"https://github.com/mdrasel101126/tech-hunt-server",
+        "live-link":"https://tech-hunt-32867.web.app/",
+         "description":"It is an educational website.Home page contains all courses links.It has login and register section with email and password.A person can login with google and github account also.The authentication is done by firebase.The authentication is done by firebase",
+         "technologies":"HTML,CSS,React-Bootstrap,ReactJS,Firebase,React-Router-Dom,React-Hot-Toast,JavaScript,NodeJS,ExpressJS"
+
+    }
+]

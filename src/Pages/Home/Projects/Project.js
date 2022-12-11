@@ -1,6 +1,7 @@
 import React from "react";
 import { PhotoProvider, PhotoView } from "react-photo-view";
 import "react-photo-view/dist/react-photo-view.css";
+import { Link } from "react-router-dom";
 
 const Project = ({ project }) => {
   return (
@@ -26,11 +27,11 @@ const Project = ({ project }) => {
           </small>
         </p>
         <div className="text-center mt-3">
-          <button className="btn btn-primary text-white font-bold">
-            <a href={project.urlLink} target="_blank" rel="noreferrer">
-              Visit Website
-            </a>
-          </button>
+          <Link to={`/project/${project.id}`}>
+            <button className="btn btn-primary text-white font-bold">
+              Explore More
+            </button>
+          </Link>
         </div>
       </div>
     </div>
