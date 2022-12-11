@@ -1,11 +1,22 @@
 import React from "react";
+import { PhotoProvider, PhotoView } from "react-photo-view";
+import "react-photo-view/dist/react-photo-view.css";
 
 const Project = ({ project }) => {
   return (
     <div className="card  bg-base-100 shadow-xl">
-      <figure>
-        <img className="w-full h-52" src={project.image} alt="" />
-      </figure>
+      <PhotoProvider>
+        <PhotoView src={project.image}>
+          <figure>
+            <img
+              className="w-full h-52 hover:cursor-pointer"
+              src={project.image}
+              alt=""
+            />
+          </figure>
+        </PhotoView>
+      </PhotoProvider>
+
       <div className="card-body">
         <h2 className="card-title">{project.name}</h2>
         <p>{project.description}</p>

@@ -1,0 +1,13 @@
+[
+    {
+        "name":"Mobile Market",
+        "imgaes":["https://i.ibb.co/YDmLQ2R/screencapture-mobile-market-1b94f-web-app-2022-12-11-15-48-14.png","https://i.ibb.co/PrLQzxD/screencapture-mobile-market-1b94f-web-app-dashboard-myproducts-2022-12-11-16-03-15.png","https://i.ibb.co/WVh20Rb/screencapture-mobile-market-1b94f-web-app-category-637f60fb061abaa7237b1707-2022-12-11-16-04-40.png","https://i.ibb.co/vcM9x8d/screencapture-mobile-market-1b94f-web-app-dashboard-payment-6395ac10e3eac91a84bd5483-2022-12-11-16-0.png"],
+       
+        "client-side":"https://github.com/mdrasel101126/mobile-market-client",
+        "server-side":"https://github.com/mdrasel101126/mobile-market-server",
+        "live-link":"https://mobile-market-1b94f.web.app/",
+         "description":"It has login and register system,with Firebase authentication.Home page contains the category list of mobile brands and advertised items.On clicking any category sell all ,redirect to a page containing all mobiles of this category only if the user is registered otherwise the user will redirect to login page.Only login user will see Dashboar Link.The Dashboard Routes will change based on normal user, seller and admin. Only normal user can book, buy and report a product.Online Card payment is available.",
+         "technologies":"ReactJs,Tailwind CSS,Daisy UI,React Icons,React Slick,React Router Dom,Firebase,Mongodb,NodeJS,ExpressJS"
+
+    }
+]

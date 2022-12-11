@@ -1,0 +1,13 @@
+[
+    {
+        "name":"Hello Foodies",
+        "imgaes":["https://i.ibb.co/XtSy1NZ/screencapture-hello-foodies-web-app-2022-12-11-15-53-47.png","https://i.ibb.co/5MnvNb1/screencapture-hello-foodies-web-app-services-2022-12-11-16-39-19.png","https://i.ibb.co/1qS49xt/screencapture-hello-foodies-web-app-services-636bd3a13e23bf9b5b269833-2022-12-11-16-37-30.png","https://i.ibb.co/WpXwhDv/screencapture-hello-foodies-web-app-addservice-2022-12-11-16-40-34.png"],
+       
+        "client-side":"https://github.com/mdrasel101126/hello-foodies-client",
+        "server-side":"https://github.com/mdrasel101126/hello-foodies-server",
+        "live-link":"https://hello-foodies.web.app/",
+         "description":"This is a single page application.It has a login register authentication.Home page contain a navbar and three service.By clicking see all button user can see the all services.One single service has a details page.Details page contain the details of that service and comments of the users.Any one can comment by login into this website.There is two private routes named AddService and MyReviews.If you login into this website ,you will access this page.My Reviews page user will see his/her own reviews only.Add Service page is used to insert new service",
+         "technologies":"ReactJs,Tailwind CSS,Daisy UI,React Icons,React Slick,React Router Dom,Firebase,Mongodb,NodeJS,JWT,ExpressJS"
+
+    }
+]

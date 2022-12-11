@@ -4,7 +4,7 @@
         "name":"Mobile Market",
         "description":"Online Mobile Resale Website",
         "technology":"MERN",
-        "image":"https://i.ibb.co/t8YFLfj/nokia19old.jpg",
+        "image":"https://i.ibb.co/YDmLQ2R/screencapture-mobile-market-1b94f-web-app-2022-12-11-15-48-14.png",
         "urlLink":"https://mobile-market-1b94f.web.app/"
     },
     {
@@ -12,14 +12,14 @@
         "name":"Hello Foodies",
         "description":"Online Personal Cooking Website",
         "technology":"MERN",
-        "image":"https://i.ibb.co/ZN7LPq2/vegitable-curry.jpg",
+        "image":"https://i.ibb.co/XtSy1NZ/screencapture-hello-foodies-web-app-2022-12-11-15-53-47.png",
         "urlLink":"https://hello-foodies.web.app//"
     },
     {
         "id":3,
         "name":"Tech Hunt",
         "description":"Online computer Technology Learning Website",
-        "image":"https://i.ibb.co/qRhMwZ8/Java-Script.jpg",
+        "image":"https://i.ibb.co/GTZkN8k/screencapture-tech-hunt-32867-web-app-2022-12-11-15-55-51.png",
         "technology":"MERN",
         "urlLink":"https://tech-hunt-32867.web.app/"
     }

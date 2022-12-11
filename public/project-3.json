@@ -1,0 +1,13 @@
+[
+    {
+        "name":"Tech Hunt",
+        "imgaes":["https://i.ibb.co/GTZkN8k/screencapture-tech-hunt-32867-web-app-2022-12-11-15-55-51.png","https://i.ibb.co/6sM1PtB/screencapture-tech-hunt-32867-web-app-course-3-2022-12-11-16-51-32.png","https://i.ibb.co/hynkfrF/screencapture-tech-hunt-32867-web-app-login-2022-12-11-16-53-09.png","https://i.ibb.co/fC8W5Hx/screencapture-tech-hunt-32867-web-app-course-5-2022-12-11-16-57-17.png"],
+       
+        "client-side":"https://github.com/mdrasel101126/tech-hunt-client",
+        "server-side":"https://github.com/mdrasel101126/tech-hunt-server",
+        "live-link":"https://tech-hunt-32867.web.app/",
+         "description":"It is an educational website.Home page contains all courses links.It has login and register section with email and password.A person can login with google and github account also.The authentication is done by firebase.The authentication is done by firebase",
+         "technologies":"HTML,CSS,React-Bootstrap,ReactJS,Firebase,React-Router-Dom,React-Hot-Toast,JavaScript,NodeJS,ExpressJS"
+
+    }
+]
