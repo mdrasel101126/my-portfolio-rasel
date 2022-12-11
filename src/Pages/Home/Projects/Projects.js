@@ -12,7 +12,7 @@ const Projects = () => {
   }, []);
 
   return (
-    <div className="my-8">
+    <div id="projects" className="my-8">
       <h1 className="text-primary text-4xl text-center font-bold">
         My Projects
       </h1>

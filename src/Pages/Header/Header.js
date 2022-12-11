@@ -10,9 +10,14 @@ const Header = () => {
         </Link>
       </li>
       <li>
-        <Link className="text-white font-bold hover:text-primary">
+        <a href="#about-me" className="text-white font-bold hover:text-primary">
           About Me
-        </Link>
+        </a>
+      </li>
+      <li>
+        <a href="#projects" className="text-white font-bold hover:text-primary">
+          Projects
+        </a>
       </li>
       <li>
         <a
@@ -31,6 +36,11 @@ const Header = () => {
         >
           Contact
         </a>
+      </li>
+      <li>
+        <Link to="/blog" className="text-white font-bold hover:text-primary">
+          Blogs
+        </Link>
       </li>
     </>
   );
