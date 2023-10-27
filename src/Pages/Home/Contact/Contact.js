@@ -63,14 +63,14 @@ const Contact = () => {
             <input
               type="text"
               name="user_name"
-              placeholder="Full Name"
+              placeholder="Enter Name"
               className="input input-bordered w-full text-black max-w-xs"
               required
             />
             <input
               type="email"
               name="user_email"
-              placeholder="Type here"
+              placeholder="Enter Email"
               className="input text-black input-bordered w-full max-w-xs"
               required
             />

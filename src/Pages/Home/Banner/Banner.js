@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import { FaFacebook, FaLinkedinIn, FaTwitter } from "react-icons/fa";
 import "./Banner.module.css";
 import { Typewriter } from "react-simple-typewriter";
-import profileImage from "../../../Images/profile-image.png";
+import profileImage from "../../../Images/profile-image.jpg";
 
 const Banner = () => {
   return (
