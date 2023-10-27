@@ -26,6 +26,14 @@ const Project = ({ project }) => {
             Technology: {project.technology}
           </small>
         </p>
+        <a
+          href={project["urlLink"]}
+          target="_blank"
+          rel="noreferrer"
+          className="text-primary font-bold"
+        >
+          Live Website
+        </a>
         <div className="text-center mt-3">
           <Link to={`/project/${project.id}`}>
             <button className="btn btn-primary text-white font-bold">

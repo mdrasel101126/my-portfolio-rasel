@@ -33,5 +33,17 @@
          "description":"It is an educational website.Home page contains all courses links.It has login and register section with email and password.A person can login with google and github account also.The authentication is done by firebase.The authentication is done by firebase",
          "technologies":"HTML,CSS,React-Bootstrap,ReactJS,Firebase,React-Router-Dom,React-Hot-Toast,JavaScript,NodeJS,ExpressJS"
 
+    },
+    {
+        "id":4,
+        "name":"HOME TUTOR",
+        "imgaes":["https://i.ibb.co/TK4q75S/screencapture-home-tutor-frontend-vercel-app-2023-10-27-22-03-24.png","https://i.ibb.co/c3q9CRp/screencapture-home-tutor-frontend-vercel-app-dashboard-users-2023-10-27-22-04-46.png","https://i.ibb.co/Rp1bD3v/screencapture-home-tutor-frontend-vercel-app-tutor-details-6531bab43de58a4b24f88991-2023-10-27-22-06.png","https://i.ibb.co/DwsmRg2/screencapture-home-tutor-frontend-vercel-app-profile-2023-10-27-22-05-14.png"],
+       
+        "client-side":"https://github.com/mdrasel101126/home-tutor-frontend",
+        "server-side":"https://github.com/mdrasel101126/home-tutor-backend",
+        "live-link":"https://home-tutor-frontend.vercel.app/",
+         "description":"It is a social website providing home tutor.Custom authentication service available.Filtering and pagination service available.User profile page available.Admmin and user dashboard also availabe.More services comming soon...",
+         "technologies":"NextJS,Tailwind,DaisyUI,ExpressJS,NodeJS,JWT,Mongoose,Redux,RTK"
+
     }
 ]

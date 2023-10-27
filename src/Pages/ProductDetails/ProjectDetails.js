@@ -11,7 +11,7 @@ const ProjectDetails = () => {
     fetch(`https://my-portfolio-rasel-server.vercel.app/project/${id}`)
       .then((res) => res.json())
       .then((data) => {
-        /*  console.log(data); */
+        //console.log(data);
         setDetail(data);
         setSpinner(false);
       })
@@ -49,7 +49,7 @@ const ProjectDetails = () => {
           </div>
           <div className="text-center my-8">
             <a
-              href={detail.liveLink}
+              href={detail["live-link"]}
               target="_blank"
               rel="noreferrer"
               className="btn btn-primary text-white font-bold m-4"
@@ -57,7 +57,7 @@ const ProjectDetails = () => {
               Live Website
             </a>
             <a
-              href={detail.clientSide}
+              href={detail["client-side"]}
               target="_blank"
               rel="noreferrer"
               className="btn btn-primary text-white font-bold m-4"
@@ -65,7 +65,7 @@ const ProjectDetails = () => {
               Client Side
             </a>
             <a
-              href={detail.serverSide}
+              href={detail["server-side"]}
               target="_blank"
               rel="noreferrer"
               className="btn btn-primary text-white font-bold m-4"

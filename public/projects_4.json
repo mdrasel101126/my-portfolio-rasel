@@ -1,13 +1,13 @@
 [
     {
-        "name":"PC BUILDER",
-        "imgaes":["https://i.ibb.co/GTZkN8k/screencapture-tech-hunt-32867-web-app-2022-12-11-15-55-51.png","https://i.ibb.co/6sM1PtB/screencapture-tech-hunt-32867-web-app-course-3-2022-12-11-16-51-32.png","https://i.ibb.co/hynkfrF/screencapture-tech-hunt-32867-web-app-login-2022-12-11-16-53-09.png","https://i.ibb.co/fC8W5Hx/screencapture-tech-hunt-32867-web-app-course-5-2022-12-11-16-57-17.png"],
+        "name":"HOME TUTOR",
+        "imgaes":["https://i.ibb.co/TK4q75S/screencapture-home-tutor-frontend-vercel-app-2023-10-27-22-03-24.png","https://i.ibb.co/c3q9CRp/screencapture-home-tutor-frontend-vercel-app-dashboard-users-2023-10-27-22-04-46.png","https://i.ibb.co/Rp1bD3v/screencapture-home-tutor-frontend-vercel-app-tutor-details-6531bab43de58a4b24f88991-2023-10-27-22-06.png","https://i.ibb.co/DwsmRg2/screencapture-home-tutor-frontend-vercel-app-profile-2023-10-27-22-05-14.png"],
        
-        "client-side":"https://github.com/mdrasel101126/tech-hunt-client",
-        "server-side":"https://github.com/mdrasel101126/tech-hunt-server",
-        "live-link":"https://tech-hunt-32867.web.app/",
-         "description":"",
-         "technologies":"HTML,CSS,React-Bootstrap,ReactJS,Firebase,React-Router-Dom,React-Hot-Toast,JavaScript,NodeJS,ExpressJS"
+        "client-side":"https://github.com/mdrasel101126/home-tutor-frontend",
+        "server-side":"https://github.com/mdrasel101126/home-tutor-backend",
+        "live-link":"https://home-tutor-frontend.vercel.app/",
+         "description":"It is a social website providing home tutor.Custom authentication service available.Filtering and pagination service available.User profile page available.Admmin and user dashboard also availabe.More services comming soon...",
+         "technologies":"NextJS,Tailwind,DaisyUI,ExpressJS,NodeJS,JWT,Mongoose,Redux,RTK"
 
     }
 ]
