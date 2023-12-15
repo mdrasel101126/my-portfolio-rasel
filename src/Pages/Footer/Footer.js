@@ -1,6 +1,5 @@
 import React from "react";
-import { FaFacebook, FaLinkedinIn, FaTwitter } from "react-icons/fa";
-import { Link } from "react-router-dom";
+import { FaFacebook, FaGithub, FaLinkedinIn } from "react-icons/fa";
 
 const Footer = () => {
   const year = new Date().getFullYear();
@@ -10,15 +9,30 @@ const Footer = () => {
         <p>Copyright © {year} - All right reserved</p>
         <p>Developed By Rasel</p>
         <div className="flex justify-center">
-          <Link className="m-2 text-white text-2xl">
+          <a
+            target="_blank"
+            rel="noreferrer"
+            href="https://www.facebook.com/profile.php?id=100014968758892"
+            className="m-2 text-white text-2xl"
+          >
             <FaFacebook></FaFacebook>
-          </Link>
-          <Link className="m-2  text-white text-2xl">
+          </a>
+          <a
+            target="_blank"
+            rel="noreferrer"
+            href="https://www.linkedin.com/in/rasel-miah26/"
+            className="m-2  text-white text-2xl"
+          >
             <FaLinkedinIn></FaLinkedinIn>
-          </Link>
-          <Link className="m-2  text-white text-2xl">
-            <FaTwitter></FaTwitter>
-          </Link>
+          </a>
+          <a
+            target="_blank"
+            rel="noreferrer"
+            href="https://github.com/mdrasel101126"
+            className="m-2  text-white text-2xl"
+          >
+            <FaGithub></FaGithub>
+          </a>
         </div>
       </div>
     </footer>

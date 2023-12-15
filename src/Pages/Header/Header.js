@@ -10,18 +10,24 @@ const Header = () => {
         </Link>
       </li>
       <li>
-        <a href="#about-me" className="text-white font-bold hover:text-primary">
+        <a
+          href="/#about-me"
+          className="text-white font-bold hover:text-primary"
+        >
           About Me
         </a>
       </li>
       <li>
-        <a href="#projects" className="text-white font-bold hover:text-primary">
+        <a
+          href="/#projects"
+          className="text-white font-bold hover:text-primary"
+        >
           Projects
         </a>
       </li>
       <li>
         <a
-          href="https://drive.google.com/file/d/1P_uEheOuk7WBFMaEmyyD1TaJneUjzFSr/view?usp=sharing"
+          href="https://drive.google.com/file/d/1dVRAJXzdYuaFIPAYMo3oEjVX9cuDjm0B/view?usp=sharing"
           target="_blank"
           rel="noreferrer"
           className="text-white font-bold hover:text-primary"
@@ -31,7 +37,7 @@ const Header = () => {
       </li>
       <li>
         <a
-          href="#contact-me"
+          href="/#contact-me"
           className="text-white font-bold hover:text-primary"
         >
           Contact

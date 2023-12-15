@@ -1,6 +1,5 @@
 import React from "react";
-import { Link } from "react-router-dom";
-import { FaFacebook, FaLinkedinIn, FaTwitter } from "react-icons/fa";
+import { FaFacebook, FaGithub, FaLinkedinIn } from "react-icons/fa";
 import "./Banner.module.css";
 import { Typewriter } from "react-simple-typewriter";
 import profileImage from "../../../Images/profile-image.jpg";
@@ -9,17 +8,6 @@ const Banner = () => {
   return (
     <div className="grid grid-cols-1 md:grid-cols-3  mx-auto p-8 bg-slate-900 text-white my-8 rounded-xl">
       <div className="col-span-2">
-        <div className="flex justify-center">
-          <Link className="m-2 text-white text-2xl">
-            <FaFacebook></FaFacebook>
-          </Link>
-          <Link className="m-2  text-white text-2xl">
-            <FaLinkedinIn></FaLinkedinIn>
-          </Link>
-          <Link className="m-2  text-white text-2xl">
-            <FaTwitter></FaTwitter>
-          </Link>
-        </div>
         <div className="text-center ">
           <span className="text-xl font-bold">Hello, I am</span>{" "}
           <span className="text-primary text-xl font-bold">Rasel Miah</span>
@@ -66,6 +54,32 @@ const Banner = () => {
                 Resume
               </a>
             </button>
+          </div>
+          <div className="flex justify-center">
+            <a
+              target="_blank"
+              rel="noreferrer"
+              href="https://www.facebook.com/profile.php?id=100014968758892"
+              className="m-2 text-white text-2xl"
+            >
+              <FaFacebook></FaFacebook>
+            </a>
+            <a
+              target="_blank"
+              rel="noreferrer"
+              href="https://www.linkedin.com/in/rasel-miah26/"
+              className="m-2  text-white text-2xl"
+            >
+              <FaLinkedinIn></FaLinkedinIn>
+            </a>
+            <a
+              target="_blank"
+              rel="noreferrer"
+              href="https://github.com/mdrasel101126"
+              className="m-2  text-white text-2xl"
+            >
+              <FaGithub></FaGithub>
+            </a>
           </div>
         </div>
       </div>
