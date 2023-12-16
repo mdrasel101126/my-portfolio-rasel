@@ -37,11 +37,9 @@ const ProjectDetails = () => {
               <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
                 {detail.imgaes.map((item, index) => (
                   <PhotoView key={index} src={item}>
-                    <img
-                      className="h-96 w-full shadow-xl border-2 border-secondary rounded-xl hover:cursor-pointer"
-                      src={item}
-                      alt=""
-                    />
+                    <div className="h-96 w-full shadow-xl border-2 border-secondary rounded-xl hover:cursor-pointer overflow-y-scroll no-scrollbar">
+                      <img src={item} alt="" />
+                    </div>
                   </PhotoView>
                 ))}
               </div>
