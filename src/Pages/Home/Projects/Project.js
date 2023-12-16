@@ -9,11 +9,14 @@ const Project = ({ project }) => {
       <PhotoProvider>
         <PhotoView src={project.image}>
           <figure>
-            <img
-              className="w-full h-52 hover:cursor-pointer"
-              src={project.image}
-              alt=""
-            />
+            <div className="w-full h-80 overflow-y-auto no-scrollbar">
+              <img
+                className="hover:cursor-pointer"
+                src={project.image}
+                sizes=""
+                alt=""
+              />
+            </div>
           </figure>
         </PhotoView>
       </PhotoProvider>
