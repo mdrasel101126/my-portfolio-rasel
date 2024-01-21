@@ -10,7 +10,7 @@ const Service = () => {
           <h3 className="text-xl font-bold text-center">
             Frontend Development
           </h3>
-          <FaCode className="text-7xl mx-auto" />
+          <FaCode className="text-7xl mx-auto text-primary" />
           <p className="font-semibold text-justify">
             I convert any Figma or PSD file to HTML.I convert webpage to ReactJS
             and NextJs also. I am comfortable in Tailwind and Bootstrap. I also
@@ -19,7 +19,7 @@ const Service = () => {
         </div>
         <div className="w-full md:w-80 p-8 shadow-xl rounded-md">
           <h3 className="text-xl font-bold text-center">Backend Development</h3>
-          <FaCode className="text-7xl mx-auto" />
+          <FaCode className="text-7xl mx-auto text-primary" />
           <p className="font-semibold text-justify">
             I create REST API using NodeJS. I use both NoSQL and SQL database to
             store data. I am comfortable in Mongoose for MongoDB and Prisma for
@@ -30,7 +30,7 @@ const Service = () => {
           <h3 className="text-xl font-bold text-center">
             Full Stack Development
           </h3>
-          <FaCode className="text-7xl mx-auto" />
+          <FaCode className="text-7xl mx-auto text-primary" />
           <p className="font-semibold text-justify">
             I convert any Figma or PSD file to HTML. I convert webpage to
             ReactJS and NextJs also. I create Backend APIs using NodeJs. I use

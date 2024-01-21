@@ -21,6 +21,8 @@ const ProjectDetails = () => {
       });
   }, [id]);
 
+  //console.log(detail);
+
   return (
     <div className="my-12 w-11/12 mx-auto">
       {spinner && <Spinner></Spinner>}
