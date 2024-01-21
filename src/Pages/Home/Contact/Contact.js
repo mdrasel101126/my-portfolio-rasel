@@ -7,6 +7,7 @@ import {
   FaLinkedinIn,
   FaGithub,
 } from "react-icons/fa";
+import { MdOutlineMailOutline } from "react-icons/md";
 import { GoLocation } from "react-icons/go";
 import { toast } from "react-hot-toast";
 const Contact = () => {
@@ -54,8 +55,8 @@ const Contact = () => {
               <p>+8801798686728</p>
             </div>
             <div className="flex flex-row items-center">
-              <FaInbox className="text-xl font-bold w-[16px] mr-2"></FaInbox>
-              <p>rasel.miah101126@gmail.com</p>
+              <MdOutlineMailOutline className="text-xl font-bold w-[16px] mr-2"></MdOutlineMailOutline>
+              <p className="text-sm">rasel.miah101126@gmail.com</p>
             </div>
             <div className="flex">
               <a
